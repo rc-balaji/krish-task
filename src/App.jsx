@@ -13,7 +13,9 @@ function App() {
 
 
   return (
-    <div>
+    <div style={{
+      backgroundColor:'white'
+    }} >
       <Bar title={"Battery"} values={para} unit={"%"} />
       {/* <Therm title={"Temperature"} values={para} unit={"℃"} /> */}
     </div>
